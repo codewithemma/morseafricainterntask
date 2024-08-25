@@ -20,5 +20,7 @@
   color: #717171;
 }
 .app_menu .item .active {
+  font-size: 12px;
   font-weight: bold;
+  color: #717171;
 }
