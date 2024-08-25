@@ -3,22 +3,22 @@ import styles from "./AppMenu.module.css";
 const AppMenu = () => {
   return (
     <div className={styles.app_menu}>
-      <div className={styles.item}>
+      <a className={styles.item} href="/">
         <img src="/assets/home.svg" alt="home icon" />
-        <p className={styles.active}>Home</p>
-      </div>
-      <div className={styles.item}>
+        <span className={styles.active}>Home</span>
+      </a>
+      <a className={styles.item} href="/">
         <img src="/assets/message.svg" alt="message icon" />
-        <p>Messages</p>
-      </div>
-      <div className={styles.item}>
+        <span>Messages</span>
+      </a>
+      <a className={styles.item} href="/">
         <img src="/assets/create.svg" alt="newpost icon" />
-        <p>Create</p>
-      </div>
-      <div className={styles.item}>
+        <span>Create</span>
+      </a>
+      <a className={styles.item} href="/">
         <img src="/assets/profile.svg" alt="profile icon" />
-        <p>Create</p>
-      </div>
+        <span>Create</span>
+      </a>
     </div>
   );
 };

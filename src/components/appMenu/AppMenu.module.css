@@ -1,10 +1,14 @@
 .app_menu {
-  padding: 10px;
+  padding: 12px;
   border-top: 1px solid #e5e5e5;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background-color: #ffffff;
 }
 .app_menu .item {
   display: flex;
@@ -13,8 +17,10 @@
   justify-content: center;
   width: 100%;
   gap: 5px;
+  text-decoration: none;
+  flex: 1;
 }
-.app_menu .item p {
+.app_menu .item span {
   font-size: 12px;
   font-weight: normal;
   color: #717171;
