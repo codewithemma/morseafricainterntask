@@ -32,8 +32,8 @@ function App() {
           <div></div>
           <div></div>
         </div>
-        <AppMenu />
       </div>
+      <AppMenu />
     </div>
   );
 }
