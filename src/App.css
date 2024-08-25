@@ -11,6 +11,7 @@ body {
   font-family: "Nunito", sans-serif;
   background-color: #f5f5f5;
   overflow: hidden;
+  /* position: relative; */
 }
 
 .wrapper {
@@ -26,9 +27,13 @@ body {
 }
 
 .main {
-  max-height: 100%;
+  max-height: 70vh;
   overflow-y: scroll;
   scrollbar-width: none;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
 }
 
 .card_flex {
