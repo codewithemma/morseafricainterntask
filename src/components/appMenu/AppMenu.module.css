@@ -1,0 +1,24 @@
+.app_menu {
+  padding: 10px;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.app_menu .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+}
+.app_menu .item p {
+  font-size: 12px;
+  font-weight: normal;
+  color: #717171;
+}
+.app_menu .item .active {
+  font-weight: bold;
+}
