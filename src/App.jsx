@@ -11,7 +11,7 @@ function App() {
           {card_content.slice(0, 4).map((card) => (
             <div className="card" key={card.id}>
               <img src={card.icon} alt={card.name} />
-              <p>New Post</p>
+              <p>{card.name}</p>
             </div>
           ))}
         </div>
@@ -24,7 +24,7 @@ function App() {
           {card_content.slice(4, 8).map((card) => (
             <div className="card" key={card.id}>
               <img src={card.icon} alt={card.name} />
-              <p>New Post</p>
+              <p>{card.name}</p>
             </div>
           ))}
         </div>
